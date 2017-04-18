@@ -1,0 +1,21 @@
+{
+  "name": "plaid-client",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "jhkennedy4 <jhkennedy4@gmail.com>",
+  "main": "functions/main/index.js",
+  "dependencies": {
+    "plaid": "^2.0.3"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "jhkennedy4/plaid-client",
+    "defaultFunction": "main",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

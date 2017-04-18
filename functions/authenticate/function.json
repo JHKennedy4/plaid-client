@@ -1,0 +1,12 @@
+{
+  "name": "authenticate",
+  "description": "Authenticate with Plaid",
+  "kwargs": {
+    "public_token": "Plaid public token"
+  },
+  "http": {
+    "headers": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

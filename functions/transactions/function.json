@@ -1,0 +1,12 @@
+{
+  "name": "transactions",
+  "description": "Get account transations",
+  "kwargs": {
+    "access_token": "Plaid user access token"
+  },
+  "http": {
+    "headers": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
